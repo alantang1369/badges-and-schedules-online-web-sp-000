@@ -9,5 +9,9 @@ def batch_badge_creator(attendees)
     list << badge_maker(attendee)
   end
   list
-    
 end  
+
+def assign_room(attendees)
+  list = []
+  attendees.each do |attendee|
+    list << ""
